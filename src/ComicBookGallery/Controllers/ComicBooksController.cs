@@ -15,7 +15,7 @@ namespace ComicBookGallery.Controllers
             {
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 700,
-                DescriptionHtml = "<p> Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>",
+                DescriptionHtml = "<p>Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives...<strong>will Peter Parker?</strong></p>",
                 Artists = new Artist[]
                 {
                     new Artist() { Name = "Dan Slott", Role = "Script" },
@@ -23,8 +23,8 @@ namespace ComicBookGallery.Controllers
                     new Artist() { Name = "Victor Olazaba", Role = "Inks" },
                     new Artist() { Name = "Edgar Delgado", Role = "Colors" },
                     new Artist() { Name = "Chris Eliopoulos", Role = "Letters" },
-
-                }
+                },
+                Favorite = false
             };
 
             return View(comicBook);
